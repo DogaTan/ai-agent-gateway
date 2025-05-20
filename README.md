@@ -86,7 +86,7 @@ Host Ollama on a VPS (Virtual Private Server) or
 
 Replace Ollama with a cloud-based LLM like OpenAI or Cohere and update the API request logic.
 
-### 🎥 Presentation Video
+## 🎥 Presentation Video
 
 [📺 Watch the video here](https://drive.google.com/file/d/1LgFTzhip-IQkafnt3iItlVR-iBcV8Qyk/view?usp=drive_link)
 
