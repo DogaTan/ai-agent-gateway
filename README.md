@@ -60,11 +60,11 @@ node index.js
 
 ## 🔒 Note
 
-- Why Ollama + Mistral instead of OpenAI API?
+**- Why Ollama + Mistral instead of OpenAI API?**
 The OpenAI API has usage limitations in its free tier, and requires a stable internet connection and billing setup.
 To avoid these limitations, this project uses Ollama, which is a local LLM runtime for running models like Mistral directly on your computer without external API calls or tokens.
 
-- About Ollama:
+**- About Ollama:**
 
 Ollama runs entirely on your local machine.
 
@@ -74,7 +74,7 @@ It provides a simple local API (http://localhost:11434) for inference.
 
 For this project, Mistral is used to analyze user messages and extract intent + parameters.
 
-- Deployment Limitation Due to Ollama:
+**- Deployment Limitation Due to Ollama:**
 
 Since Ollama is a local service, it cannot run directly on hosting platforms like Render, Vercel, or Netlify.
 
@@ -94,5 +94,7 @@ Replace Ollama with a cloud-based LLM like OpenAI or Cohere and update the API r
 
 This project is deployed on [Render](https://render.com/)  
 🔗 **Live URL Backend:** (https://ai-agent-gateway.onrender.com)
+
 🔗 **Live URL Frontend:** (https://ai-agent-chat.onrender.com)
+
 🔗 **Midterm API Swagger UI:** [`https://se4458-midterm-project.onrender.com/swagger-ui.html`](https://se4458-midterm-project.onrender.com/swagger-ui.html)
